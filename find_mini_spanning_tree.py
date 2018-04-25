@@ -8,6 +8,11 @@ Your function should take in and return an adjacency list structured like this:
  'C': [('B', 5)]}
 Vertices are represented as unique strings. The function definition should be question3(G)
 
+We use breadth first search + Dijkstra algorithm to find the minimum spanning tree. 
+To implement the Dijkstra algorithm, we use priority queue (i.e. heap) to find the edge with minimum weight.
+
+Suppose the set of vertexs and edges are V and E respectively. The time complexity is |E|+|V|log|V|
+and the space complexity is |V| + |E|
 """
 from heapq import heappush, heappop
 def question3(G):

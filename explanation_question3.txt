@@ -1,7 +1,0 @@
-We use breadth first search + Dijkstra algorithm to find the minimum spanning tree. 
-To implement the Dijkstra algorithm, we use priority queue (i.e. heap) to find the edge
-with minimum weight.
-
-Suppose the set of vertexs and edges are V and E respectively. The time complexity is |E|+|V|log|V|
-and the space complexity is |V| + |E|
-
